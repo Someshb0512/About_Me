@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Somesh Bachani</string>
+    <string name="yellow_star">Yellow Star</string>
+
+    <string name="bio">Hi, my name is Somesh Bachani.
+    \n\nI am a student at Galgotias University
+    \n\nThis in an Intro APP that I have developed.
+    \n\nIt is supported via Kotlin.
+    \n\nIt was made in android studio.
+    \n\nI am a 3rd year student who is learning to develop a Kotlin APP.
+    \n\nI like programming.
+    \n\nA Fact about me :- I Assembled my first PC in Class 10 and made my first Robot in class 7.
+    \n\nI try to keep learning new things Soon I will make an app for people to make their portfolio and export as PDF.
+    \n\nI have a github profile that I try to update regularly.
+    \n\nI have done 3 internships till now.
+    \n\nI want to become a software developer someday.
+    \n\nMy main programming language is python.\n\n</string>
 </resources>
