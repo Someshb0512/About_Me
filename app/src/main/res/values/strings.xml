@@ -16,4 +16,6 @@
     \n\nI have done 3 internships till now.
     \n\nI want to become a software developer someday.
     \n\nMy main programming language is python.\n\n</string>
+    <string name="what_is_your_nickname">What is Your Nickname?</string>
+    <string name="done">Done</string>
 </resources>
