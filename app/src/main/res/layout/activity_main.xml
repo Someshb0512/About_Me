@@ -11,7 +11,5 @@
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/text_size"
-        android:typeface="normal" />
+        style="@style/NameStyle" />
 </LinearLayout>
