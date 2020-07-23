@@ -1,6 +1,7 @@
 package android.example.com
 
 import android.content.Context
+import android.example.com.aboutme.MyName
 import android.example.com.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,10 +17,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val myName: MyName= MyName("Somesh Bachani")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.myName = myName
         //setContentView(R.layout.activity_main)
         //findViewById<Button>(R.id.done_button).setOnClickListener {
           //  addNickname(it)
@@ -32,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun addNickname(view:View) {
 
         binding.apply {
-            nicknameText.text = binding.nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
             nicknameEdit.visibility = View.GONE
             view.visibility = View.GONE
